@@ -1,0 +1,19 @@
+{
+  "name": "chewinstein-mc2-short",
+  "version": "1.0.0",
+  "description": "What if E != mc^2? The Chewinstein Theory — 30s 9:16 3D Animated Physics Comedy Short",
+  "main": "src/main.js",
+  "scripts": {
+    "preview": "node render/server.mjs 4179",
+    "verify": "node verify_scene.mjs",
+    "qa": "node render/render_frames.mjs --qa-only",
+    "render": "node render/render_frames.mjs"
+  },
+  "keywords": ["physics", "einstein", "chewinstein", "comedy", "threejs", "3d-animation"],
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "^1.65.1",
+    "three": "^0.187.0"
+  }
+}

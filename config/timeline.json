@@ -1,0 +1,224 @@
+{
+  "title": "WHAT IF E ≠ mc²? — CHEWINSTEIN THEORY",
+  "categoryBadge": "COMEDY PHYSICS • CHEWINSTEIN",
+  "duration": 30.0,
+  "fps": 30,
+  "totalFrames": 900,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audio": {
+    "sampleRate": 44100,
+    "channels": 2,
+    "masterPath": "audio/output/master_audio.wav",
+    "manifestPath": "audio/output/voice_manifest.json",
+    "srtPath": "output/subtitles.srt",
+    "loudnessLufs": -14.0,
+    "truePeakCeilingDbfs": -1.0
+  },
+  "speakers": {
+    "narrator": {
+      "label": "NARRATOR",
+      "voice": "am_puck",
+      "lang": "en-us",
+      "speed": 1.05,
+      "color": "#38BDF8",
+      "pan": 0.0
+    },
+    "chewinstein": {
+      "label": "CHEWINSTEIN",
+      "voice": "bm_george",
+      "lang": "en-gb",
+      "speed": 1.04,
+      "color": "#38BDF8",
+      "pan": -0.15
+    },
+    "atom": {
+      "label": "SASSY ATOM",
+      "voice": "af_bella",
+      "lang": "en-us",
+      "speed": 1.06,
+      "color": "#38BDF8",
+      "pan": 0.16
+    }
+  },
+  "worldContract": {
+    "floorY": 0.0,
+    "chewinsteinPos": [-0.42, 0.0, 0.08],
+    "chewinsteinHeadRestY": 1.48,
+    "chalkboardPos": [0.10, 1.38, -1.16],
+    "deskPos": [0.60, 0.0, 0.14],
+    "deskTopY": 0.78,
+    "lampPos": [0.80, 0.78, 0.24],
+    "mugRestPos": [0.38, 0.78, 0.28],
+    "weightRestPos": [0.60, 0.78, 0.02],
+    "sunOrbPos": [0.68, 1.94, 0.08],
+    "atomOrbPos": [0.46, 1.48, 0.34]
+  },
+  "beats": [
+    {
+      "id": "beat_1_chalkboard_oops",
+      "chapter": "01 • THE EQUATION SNEEZE",
+      "start": 0.0,
+      "end": 4.5,
+      "shot": "chalkboard_sneeze_hook",
+      "summary": "Chewinstein poses proudly beside E = mc^2, sneezes violently, and wipes = into glowing red E != mc^2."
+    },
+    {
+      "id": "beat_2_speed_of_light_drop",
+      "chapter": "02 • SLOW-MO PHOTONS",
+      "start": 4.5,
+      "end": 9.8,
+      "shot": "sluggish_photon_lamp",
+      "summary": "Desk sun-lamp drops lazy bouncy light blobs that crawl slowly through air and boing off Chewinstein's nose."
+    },
+    {
+      "id": "beat_3_mass_float_chaos",
+      "chapter": "03 • ATOMIC ROAST",
+      "start": 9.8,
+      "end": 15.0,
+      "shot": "atom_anti_gravity_roast",
+      "summary": "Mug and gold weight shoot up weightlessly while a sassy talking Atom Orb pops cartoon eyes and roasts Chewinstein."
+    },
+    {
+      "id": "beat_4_sun_goes_dim",
+      "chapter": "04 • SUN TURNS ICE COLD",
+      "start": 15.0,
+      "end": 20.2,
+      "shot": "freezing_sun_shiver",
+      "summary": "No E=mc^2 fusion! Miniature hovering Sun shrinks into a frozen icy blue snowball as snow falls and Chewinstein shivers."
+    },
+    {
+      "id": "beat_5_fixing_the_math",
+      "chapter": "05 • SUPER-CHALK FIX",
+      "start": 20.2,
+      "end": 25.4,
+      "shot": "chalk_slam_restore",
+      "summary": "Chewinstein leaps with gleaming golden chalk, slams = back into E=mc^2, reignites the golden Sun, and snaps on shades."
+    },
+    {
+      "id": "beat_6_chewinstein_theory",
+      "chapter": "06 • + COFFEE TWIST",
+      "start": 25.4,
+      "end": 30.0,
+      "shot": "coffee_theory_finale",
+      "summary": "Chewinstein smugly scribbles + COFFEE onto the chalkboard and toasts his steaming mug beneath confetti chalk sparks."
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "line_01",
+      "beatId": "beat_1_chalkboard_oops",
+      "speaker": "narrator",
+      "start": 0.22,
+      "end": 2.40,
+      "text": "One sneeze—and Chewinstein broke physics."
+    },
+    {
+      "id": "line_02",
+      "beatId": "beat_1_chalkboard_oops",
+      "speaker": "chewinstein",
+      "start": 2.55,
+      "end": 4.40,
+      "text": "Oops! What if E doesn't equal mc squared?"
+    },
+    {
+      "id": "line_03",
+      "beatId": "beat_2_speed_of_light_drop",
+      "speaker": "narrator",
+      "start": 4.65,
+      "end": 7.15,
+      "text": "First—light speed collapses like tired Wi-Fi!"
+    },
+    {
+      "id": "line_04",
+      "beatId": "beat_2_speed_of_light_drop",
+      "speaker": "chewinstein",
+      "start": 7.30,
+      "end": 9.65,
+      "text": "My lamp's photons are literally walking past me!"
+    },
+    {
+      "id": "line_05",
+      "beatId": "beat_3_mass_float_chaos",
+      "speaker": "atom",
+      "start": 9.95,
+      "end": 12.60,
+      "text": "Nice math, genius—now atoms can't pay energy bills!"
+    },
+    {
+      "id": "line_06",
+      "beatId": "beat_3_mass_float_chaos",
+      "speaker": "narrator",
+      "start": 12.75,
+      "end": 14.85,
+      "text": "Mass loses its power, and gravity goes wild!"
+    },
+    {
+      "id": "line_07",
+      "beatId": "beat_4_sun_goes_dim",
+      "speaker": "narrator",
+      "start": 15.10,
+      "end": 17.65,
+      "text": "Stars need fusion math to shine—no equation, no Sun!"
+    },
+    {
+      "id": "line_08",
+      "beatId": "beat_4_sun_goes_dim",
+      "speaker": "chewinstein",
+      "start": 17.80,
+      "end": 20.05,
+      "text": "Brrr! Even my Einstein hair is freezing!"
+    },
+    {
+      "id": "line_09",
+      "beatId": "beat_5_fixing_the_math",
+      "speaker": "narrator",
+      "start": 20.30,
+      "end": 22.80,
+      "text": "Until Chewinstein grabs gold chalk—and slams back equals!"
+    },
+    {
+      "id": "line_10",
+      "beatId": "beat_5_fixing_the_math",
+      "speaker": "chewinstein",
+      "start": 22.95,
+      "end": 25.25,
+      "text": "Boom! Mass equals pure glowing energy again!"
+    },
+    {
+      "id": "line_11",
+      "beatId": "beat_6_chewinstein_theory",
+      "speaker": "narrator",
+      "start": 25.55,
+      "end": 27.60,
+      "text": "So physics stays safe—mostly anyway."
+    },
+    {
+      "id": "line_12",
+      "beatId": "beat_6_chewinstein_theory",
+      "speaker": "chewinstein",
+      "start": 27.75,
+      "end": 29.70,
+      "text": "Actually... E equals mc squared, plus coffee!"
+    }
+  ],
+  "sfxEvents": [
+    { "id": "sfx_01", "time": 1.35, "type": "cartoon_sneeze", "gain": 0.72, "pan": -0.15 },
+    { "id": "sfx_02", "time": 1.80, "type": "chalk_screech", "gain": 0.65, "pan": 0.05 },
+    { "id": "sfx_03", "time": 2.15, "type": "vine_boom", "gain": 0.76, "pan": 0.0 },
+    { "id": "sfx_04", "time": 5.05, "type": "lamp_click", "gain": 0.58, "pan": 0.20 },
+    { "id": "sfx_05", "time": 6.65, "type": "squish_boing", "gain": 0.72, "pan": -0.10 },
+    { "id": "sfx_06", "time": 9.85, "type": "antigrav_whoosh", "gain": 0.64, "pan": 0.12 },
+    { "id": "sfx_07", "time": 10.65, "type": "pop_eye", "gain": 0.60, "pan": 0.16 },
+    { "id": "sfx_08", "time": 15.25, "type": "sun_power_down", "gain": 0.68, "pan": 0.15 },
+    { "id": "sfx_09", "time": 17.90, "type": "freeze_shimmer", "gain": 0.56, "pan": 0.0 },
+    { "id": "sfx_10", "time": 20.55, "type": "chalk_whoosh", "gain": 0.64, "pan": -0.10 },
+    { "id": "sfx_11", "time": 22.15, "type": "equals_slam", "gain": 0.80, "pan": 0.0 },
+    { "id": "sfx_12", "time": 24.20, "type": "shades_snap", "gain": 0.66, "pan": -0.15 },
+    { "id": "sfx_13", "time": 26.85, "type": "chalk_scribble", "gain": 0.60, "pan": 0.05 },
+    { "id": "sfx_14", "time": 28.45, "type": "mug_clink_bell", "gain": 0.68, "pan": -0.05 },
+    { "id": "sfx_15", "time": 29.25, "type": "camera_flash", "gain": 0.62, "pan": 0.0 }
+  ]
+}
